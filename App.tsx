@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import { Button } from './components/Button';
 import { Section } from './components/Section';
-import { GeminiChat } from './components/GeminiChat';
 
 // --- Icons ---
 const Icons = {
@@ -350,10 +349,8 @@ function App() {
         </div>
       </footer>
 
-      {/* AI Assistant */}
-      <GeminiChat />
-    </div>
-  );
-}
+      </div>
+    );
+  }
 
-export default App;
+  export default App;
